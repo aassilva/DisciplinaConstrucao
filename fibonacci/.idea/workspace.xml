@@ -76,7 +76,7 @@
       <file leaf-file-name="FibonacciTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/fibonacci/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="116" selection-end="116" vertical-scroll-proportion="0.098846786" vertical-offset="0" max-vertical-offset="607">
+            <state line="27" column="1" selection-start="797" selection-end="797" vertical-scroll-proportion="0.6425041" vertical-offset="0" max-vertical-offset="607">
               <folding />
             </state>
           </provider>
@@ -515,12 +515,12 @@
       <changelist id="3a86d976-8f50-440d-9fe2-91daef811269" name="Default" comment="" />
       <created>1443139887363</created>
       <updated>1443139887363</updated>
-      <workItem from="1443139889199" duration="263000" />
+      <workItem from="1443139889199" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263000" />
+    <option name="totallyTimeSpent" value="659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-3" width="1936" height="1047" extended-state="6" />
@@ -546,7 +546,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -591,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/fibonacci/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="116" selection-end="116" vertical-scroll-proportion="0.098846786" vertical-offset="0" max-vertical-offset="607">
+        <state line="27" column="1" selection-start="797" selection-end="797" vertical-scroll-proportion="0.6425041" vertical-offset="0" max-vertical-offset="607">
           <folding />
         </state>
       </provider>
