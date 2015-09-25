@@ -1,7 +1,12 @@
 package br.ufg.inf.es.construcao.equacao;
 
-/**
- * Created by alunoinf on 24/09/15.
- */
+import junit.framework.Assert;
+import org.junit.Test;
+
 public class EquacaoTest {
+
+    @Test
+    public void testUnico(){
+        Assert.assertEquals(6489, Equacao.equacao());
+    }
 }
