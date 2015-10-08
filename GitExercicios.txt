@@ -1,0 +1,142 @@
+Fábrica de Software
+Documento: fs-mobile-1
+
+Git (exercícios)
+
+*//
+* P = Perguntas;
+* R = Respostas.
+**/
+
+
+P: Qual o comando para obter a versão instalada do Git?
+R: git tag <nome> // git tag -a <nome>
+
+P: Qual o efeito da execução de cada um dos comandos abaixo?
+
+P: executar seu editor de escolha
+R: git mv a.txt b.txt
+
+P: Se você deseja renomear um arquivo no Git
+R: git reset –hard
+
+P: Retorna a cópia de trabalho para o conteúdo do repositório (HEAD). 
+Todo o conteúdo do repositório. Arquivos criados e não adicionados não são removidos.
+
+P: git log -27
+R: Este comando remove todos os arquivos que têm a .log 
+
+P: git help
+R: lista todas as opções disponíveis com um pouco de detalhe.
+
+P: git help reset
+R: Volta ao estágio anterior do adicionamento.
+
+P: git add –all
+R: adiciona o arquivo (git add) e faz o commit (git commit).
+
+P: git add -u
+R: Adiciona todos os arquivos modificados e que já são “monitorados” pelo Git.
+
+P: O fluxo “clássico” de interação com o Git é algo como “realizar trabalho em um ou mais arquivos e diretórios”, “acrescentá-los para serem contemplados” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
+R: git status >> git add.
+
+P: Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
+R: git log
+
+P: Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, untracked, podem ser exibidos/identificados com que comando?
+R: git status
+
+P: Qual o comando para efetuar um commit?
+R: git commit -m “Nome”
+
+P: Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+R: git checkout -- arquivo.txt
+
+P: O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git?
+R: Fazer um arquivo chamado .gitignore e dentro do arquivo digita o nome ou endereço da pasta que se quer ignora.
+
+P: O que acontece se o seu repositório local for removido?
+R: Todos os arquivos são apagados.
+
+P: Como clonar um repositório remoto?
+R: git clone URL que deseja clona ex. git clone https://antlisufg@github.com/antlisufg/semtitulo.git
+
+P: Em alguns cenários git log pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
+R: git log 
+
+P: Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+R: Arquivo .gitconf
+
+P: Qual o comando para criar um repositório local?
+R: git init
+
+P: Qual o nome do diretório criado pelo Git quando se executa o comando git init?
+R: .git
+
+P: Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais git status identificam como modified?)
+R: git add -u
+
+P: O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
+R: -------------------------------------
+
+P: Qual a palavra para indicar o último commit em vez do valor de hash SHA1 correspondente?
+R: Git show <commit>
+
+P: Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando git add -u, os dois arquivos criados passam de untracked para new file?
+R: Não o comando addiciona apenas modificações em arquivos já existentes.
+
+P: Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
+P: git reset --soft HEAD~1
+R: Volta um commit e deixando o arquivo no estagio anterior.
+
+P: git reset --hard
+R: -------------------------
+
+P: Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios untracked?
+R: git rm --cached arquivo.txt    >>    git clean -fd
+
+P: Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados?
+R: .gitignore
+
+P: Quando se cria o arquivo MinhaClasse.class em um dado diretório e desejamos que o Git ignore não apenas este, mas arquivos .class em geral, por todos os membros de uma equipe que estão contribuindo com um dado projeto?
+R: git reset HEAD arquivo.txt       >>    git reset HEAD 
+
+
+P: jQuery é uma famose biblioteca em JavaScript. Consulte detalhes em http://jquery.com. O repositório Git correspondente encontra-se disponível em https://github.com/jquery/jquery.git. Faça o clone deste repositório jqueryrepo.
+R: -------------------
+
+P: No repositório jqueryrepo, criado no passo anterior, qual o efeito do comando git shortlog -sne?
+R: --------------------
+
+P: No repositório jqueryrepo, qual o efeito de git remote -v?
+R: -------------------
+
+P: Um repositório Git pode ser etiquetado ao longo do tempo. Ou seja, commits específicos podem ser “marcados” ou “etiquetados” para facilitar referências posteriores. Para listar todas as “etiquetas” (tags) estabelecidas para um dado repositório, qual comando deve ser executado?
+R: git tag -l
+
+P: Caso um dato repositório retorne muitas “marcas” ou “etiquetas” para o comando git tag, como retornar apenas aquelas que atendem a determinado padrão, por exemplo, iniciadas por 2.0?
+R: git tag v2.0
+
+P: Qual o efeito do comando git tag -a 3.4-gold -m “minha versão ouro”?
+R: Too many params
+
+P: Após executado o comando acima, qual o efeito de git show 3.4-gold?
+R: Editor de texto
+
+P: O que o comando git push origin 3.4-gold teria como efeito?
+R: Envia o commit local para o repositório remoto
+
+P: Após executar um commit, qual o efeito de git commit –amend?
+R: Refaz commit quando esquecer de adicionar um arquivo no Stage >> O amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado ao servidor remoto.
+
+P: Após executar git add x.txt, qual o efeito de git reset HEAD x.txt?
+R: Remove arquivos versionados e modificados do Stage
+
+P: Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando git checkout – a.txt?
+R: Desfaz modificações de arquivos versionados no Stage
+
+P: Qual a diferença entre os comandos git reset HEAD x.txt e git checkout -- a.txt?
+R: O git reset HEAD x.txt remove arquivos versionados e modificados do Stage e o git checkout -- a.txt desfaz modificações de arquivos versionados no Stage
+
+© 2015 Microsoft Termos Privacidade e cookies Desenvolvedores Português (Brasil)
