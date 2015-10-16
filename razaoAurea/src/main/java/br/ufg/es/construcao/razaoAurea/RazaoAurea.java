@@ -3,6 +3,7 @@ package br.ufg.es.construcao.razaoAurea;
 /**
  * Classe que implementa a Razão-Áurea.
  */
+
 public class RazaoAurea {
 
     /**
@@ -10,8 +11,9 @@ public class RazaoAurea {
      *
      * @param t1 entrada do primeiro numero maior que 0.
      * @param t2 entrada do segundo numero maior que o.
-     * @param fator Precisão do calculo.
+     * @param fator Precisão do calculo entrada com número maior que 0.
      * @return número ouro (Resultado da Razão-Áurea).
+     * @throws java.lang.IllegalArgumentException se o valor de t1, t2 ou fator for menor que 0.
      */
 
     public static double razaoAurea(int t1, int t2, int fator){
